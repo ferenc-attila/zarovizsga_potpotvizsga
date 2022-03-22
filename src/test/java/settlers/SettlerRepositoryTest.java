@@ -21,7 +21,7 @@ class SettlerRepositoryTest {
             dataSource = new MariaDbDataSource();
             dataSource.setUrl("jdbc:mariadb://localhost:3306/exam-test?useUnicode=true");
             dataSource.setUser("root");
-            dataSource.setPassword("training");
+            dataSource.setPassword("");
         } catch (SQLException sqle) {
             throw new IllegalStateException("Cannot connect to database", sqle);
         }
